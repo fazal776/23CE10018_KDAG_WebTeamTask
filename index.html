@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Course Page</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="KDAG_LOGO.png">
+        </div>
+        <div class="nav-elements">
+            <a>Home</a>
+            <a>About Course</a>
+            <a>Course Schedule</a>
+        </div>
+    </nav>
+
+    <div id="home" class="home">
+        <div class="home_intro">
+            <h2>Unlock Your Future in Web Development with React!</h2>
+            <p>Ready to transform your passion for coding into a powerful career? Imagine building dynamic,
+                high-performance web applications using the very framework that powers some of the world's most popular
+                sites, like Facebook, Instagram, and Netflix. Picture yourself mastering React, the essential skill top
+                tech companies crave, and becoming the go-to expert in your field. Whether you're starting from scratch
+                or looking to level up your skills, our course is your gateway to success. Dive in and discover how you
+                can turn your dreams into reality with React, the tool that’s shaping the future of web development!</p>
+        </div>
+
+        <div class="intro_image">
+            <img src="./intro_image.png">
+        </div>
+    </div>
+
+    <div id="about" class="about_course hide">
+        <div class="about">
+            <h2>Welcome to Developing Front-End apps with React</h2>
+            <p>Welcome to the React Comprehensive Course, a structured and intensive 5-week journey designed to
+                transform you from a novice to a proficient React developer. This course is ideal for anyone with a
+                basic understanding of JavaScript, HTML, and CSS who wants to dive deep into the world of React, one of
+                the most popular JavaScript libraries for building user interfaces.</p>
+            <br>
+            <p>In Week 1, you'll get acquainted with React fundamentals, including JSX, components, props, and state
+                management, setting a solid foundation for your learning.</p>
+            <br>
+            <p>Week 2 delves into intermediate concepts such as lifecycle methods, hooks, and React Router, enhancing
+                your ability to create dynamic and navigable applications.</p>
+            <br>
+            <p>Week 3 focuses on styling, debugging, and performance optimization, teaching you how to make your
+                applications not only functional but also efficient and visually appealing.</p>
+            <br>
+            <p>Week 4 introduces state management techniques with Redux and testing methodologies to ensure your
+                applications are robust and reliable.</p>
+            <br>
+            <p>Finally, Week 5 covers advanced topics like server-side rendering with Next.js, Progressive Web Apps, and
+                real-time data handling, culminating in a comprehensive final project where you will apply everything
+                you've learned.
+
+                By the end of this course, you'll have the skills and confidence to build, optimize, and deploy
+                sophisticated React applications, ready to tackle real-world projects.</p>
+        </div>
+    </div>
+
+
+
+    <div id="course_structure" class="course_structure hide">
+        <h2>Course Material</h2>
+        <div class="select_structure">
+            <button class="btn1 btnOn" name="btn">Week-wise</button>
+            <button class="btn2" name="btn">Day-wise</button>
+        </div>
+
+        <div class="week">
+            <div id="week1" class="material_">
+                <h3>Week 1: React Fundamentals</h3>
+                <ul>
+                    <li>Day 1: Introduction to React</li>
+                    <li>Day 2: JSX and Components</li>
+                    <li>Day 3: Props and State</li>
+                    <li>Day 4: Handling Events</li>
+                    <li>Day 5: Conditional Rendering</li>
+                    <li>Day 6: Lists and Keys</li>
+                    <li>Day 7: Review and Practice</li>
+                </ul>
+            </div>
+
+            <div id="week2" class="material_">
+                <h3>Week 2: Intermediate Concepts</h3>
+                <ul>
+                    <li>Day 8: Forms and Controlled Components</li>
+                    <li>Day 9: Component Lifecycle Methods</li>
+                    <li>Day 10: Hooks - useState and useEffect</li>
+                    <li>Day 11: Custom Hooks</li>
+                    <li>Day 12: Context API</li>
+                    <li>Day 13: React Router</li>
+                    <li>Day 14: Review and Practice</li>
+                </ul>
+            </div>
+
+            <div id="week3" class="material_">
+                <h3>Week 3: Styling, Debugging, and Performance</h3>
+                <ul>
+                    <li>Day 15: CSS in React</li>
+                    <li>Day 16: Styled Components</li>
+                    <li>Day 17: Debugging Techniques</li>
+                    <li>Day 18: Error Boundaries</li>
+                    <li>Day 19: Higher-Order Components (HOCs)</li>
+                    <li>Day 20: Performance Optimization</li>
+                    <li>Day 21: Review and Practice</li>
+                </ul>
+            </div>
+
+            <div id="week4" class="material_">
+                <h3>Week 4: State Management and Testing</h3>
+                <ul>
+                    <li>Day 22: Introduction to Redux</li>
+                    <li>Day 23: Redux Thunk and Redux Toolkit</li>
+                    <li>Day 24: Context vs. Redux</li>
+                    <li>Day 25: MobX (optional)</li>
+                    <li>Day 26: Introduction to Testing</li>
+                    <li>Day 27: Testing with Jest and React Testing Library</li>
+                    <li>Day 28: Review and Practice</li>
+                </ul>
+            </div>
+
+            <div id="week5" class="material_">
+                <h3>Week 5: Advanced Topics and Final Project</h3>
+                <ul>
+                    <li>Day 29: Server-Side Rendering (SSR) with Next.js</li>
+                    <li>Day 30: Static Site Generation (SSG) with Next.js</li>
+                    <li>Day 31: Progressive Web Apps (PWAs)</li>
+                    <li>Day 32: Code Splitting and Lazy Loading</li>
+                    <li>Day 33: WebSockets and Real-Time Data</li>
+                    <li>Day 34: GraphQL with Apollo Client</li>
+                    <li>Day 35: Final Project Planning</li>
+                    <li>Days 36-42: Build and Deploy the Final Project</li>
+                </ul>
+            </div>
+        </div>
+        <div class="day">
+            <div id="day1" class="material">
+                <h3>Day 1: Introduction to React</h3>
+                <ul>
+                    <li>Overview of React</li>
+                    <li>Advantages of using React</li>
+                    <li>Setting up the development environment (Node.js, npm, create-react-app)</li>
+                </ul>
+            </div>
+            <div id="day2" class="material">
+                <h3>Day 2: JSX and Components</h3>
+                <ul>
+                    <li>Understanding JSX and its syntax</li>
+                    <li>Functional components</li>
+                    <li>Creating your first React component</li>
+                </ul>
+            </div>
+            <div id="day3" class="material">
+                <h3>Day 3: Props and State</h3>
+                <ul>
+                    <li>Introduction to props</li>
+                    <li>Passing data between components</li>
+                    <li>Introduction to state and stateful components</li>
+                </ul>
+            </div>
+            <div id="day4" class="material">
+                <h3>Day 4: Handling Events</h3>
+                <ul>
+                    <li>Handling events in React</li>
+                    <li>Creating interactive components</li>
+                </ul>
+            </div>
+            <div id="day5" class="material">
+                <h3>Day 5: Conditional Rendering</h3>
+                <ul>
+                    <li>Conditional rendering techniques</li>
+                    <li>Ternary operators and logical && for rendering</li>
+                </ul>
+            </div>
+            <div id="day6" class="material">
+                <h3>Day 6: Lists and Keys</h3>
+                <ul>
+                    <li>Rendering lists with the 'map()' function</li>
+                    <li>Importance and usage of keys in lists</li>
+                </ul>
+            </div>
+            <div id="day7" class="material">
+                <h3>Day 7: Review and Practice</h3>
+                <ul>
+                    <li>Review the week's concepts</li>
+                    <li>Build a simple project (e.g., a to-do list app)</li>
+                </ul>
+            </div>
+            <div id="day8" class="material">
+                <h3>Day 8: Forms and Controlled Components</h3>
+                <ul>
+                    <li>Working with forms</li>
+                    <li>Controlled vs. uncontrolled components</li>
+                </ul>
+            </div>
+            <div id="day9" class="material">
+                <h3>Day 9: Component Lifecycle Methods</h3>
+                <ul>
+                    <li>Lifecycle methods of class components</li>
+                    <li>Using 'componentDidMount', 'componentDidUpdate', and 'componentWillUnmount'</li>
+                </ul>
+            </div>
+            <div id="day10" class="material">
+                <h3>Day 10: Hooks - useState and useEffect</h3>
+                <ul>
+                    <li>Introduction to React Hooks</li>
+                    <li>Using 'useState' for state management</li>
+                    <li>Using 'useEffect' for side effects</li>
+                </ul>
+            </div>
+            <div id="day11" class="material">
+                <h3>Day 11: Custom Hooks</h3>
+                <ul>
+                    <li>Creating and using custom hooks</li>
+                    <li>Practical examples of custom hooks</li>
+                </ul>
+            </div>
+            <div id="day12" class="material">
+                <h3>Day 12: Context API</h3>
+                <ul>
+                    <li>State management with Context API</li>
+                    <li>Creating and using contexts</li>
+                </ul>
+            </div>
+            <div id="day13" class="material">
+                <h3>Day 13: React Router</h3>
+                <ul>
+                    <li>Introduction to React Router</li>
+                    <li>Basic routing, nested routes, and dynamic routes</li>
+                </ul>
+            </div>
+            <div id="day14" class="material">
+                <h3>Day 14: Review and Practice</h3>
+                <ul>
+                    <li>Review the week's concepts</li>
+                    <li>Build a small project with navigation (e.g., a multi-page blog)</li>
+                </ul>
+            </div>
+            <div id="day15" class="material">
+                <h3>Day 15: CSS in React</h3>
+                <ul>
+                    <li>Different ways to style React components (CSS, inline styles, CSS modules)</li>
+                </ul>
+            </div>
+            <div id="day16" class="material">
+                <h3>Day 16: Styled Components</h3>
+                <ul>
+                    <li>Using styled-components for styling</li>
+                    <li>Creating styled-components</li>
+                </ul>
+            </div>
+            <div id="day17" class="material">
+                <h3>Day 17: Debugging Techniques</h3>
+                <ul>
+                    <li>Debugging React applications</li>
+                    <li>Using React Developer Tools and browser tools</li>
+                </ul>
+            </div>
+            <div id="day18" class="material">
+                <h3>Day 18: Error Boundaries</h3>
+                <ul>
+                    <li>Introduction to error boundaries</li>
+                    <li>Implementing error boundaries in a React app</li>
+                </ul>
+            </div>
+
+            <div id="day19" class="material">
+                <h3>Day 19: Higher-Order Components (HOCs)</h3>
+                <ul>
+                    <li>Understanding HOCs and their use cases</li>
+                    <li>Creating and using HOCs</li>
+                </ul>
+            </div>
+            <div id="day20" class="material">
+                <h3>Day 20: Performance Optimization</h3>
+                <ul>
+                    <li>Techniques for optimizing React performance</li>
+                    <li>Using React.memo, useMemo, and useCallback</li>
+                </ul>
+            </div>
+            <div id="day21" class="material">
+                <h3>Day 21: Review and Practice</h3>
+                <ul>
+                    <li>Review the week's concepts</li>
+                    <li>Build a project focusing on styling and performance (e.g., a weather app)</li>
+                </ul>
+            </div>
+            <div id="day22" class="material">
+                <h3>Day 22: Introduction to Redux</h3>
+                <ul>
+                    <li>Redux core concepts (store, actions, reducers)</li>
+                    <li>Setting up Redux in a React app</li>
+                </ul>
+            </div>
+            <div id="day23" class="material">
+                <h3>Day 23: Redux Thunk and Redux Toolkit</h3>
+                <ul>
+                    <li>Middleware with Redux Thunk for async actions</li>
+                    <li>Simplifying Redux with Redux Toolkit</li>
+                </ul>
+            </div>
+            <div id="day24" class="material">
+                <h3>Day 24: Context vs. Redux</h3>
+                <ul>
+                    <li>Comparing Context API and Redux</li>
+                    <li>Deciding when to use each state management solution</li>
+                </ul>
+            </div>
+            <div id="day25" class="material">
+                <h3>Day 25: MobX (optional)</h3>
+                <ul>
+                    <li>Introduction to MobX for state management</li>
+                    <li>Setting up and using MobX (optional based on preference)</li>
+                </ul>
+            </div>
+            <div id="day26" class="material">
+                <h3>Day 26: Introduction to Testing</h3>
+                <ul>
+                    <li>Basics of testing in React</li>
+                    <li>Unit, integration, and end-to-end tests</li>
+                </ul>
+            </div>
+            <div id="day27" class="material">
+                <h3>Day 27: Testing with Jest and React Testing Library</h3>
+                <ul>
+                    <li>Setting up Jest and React Testing Library</li>
+                    <li>Writing unit tests for components</li>
+                </ul>
+            </div>
+            <div id="day28" class="material">
+                <h3>Day 28: Review and Practice</h3>
+                <ul>
+                    <li>Review the week's concepts</li>
+                    <li>Build a project with Redux or Context and include some tests (e.g., a shopping cart)</li>
+                </ul>
+            </div>
+            <div id="day29" class="material">
+                <h3>Day 29: Server-Side Rendering (SSR) with Next.js</h3>
+                <ul>
+                    <li>Introduction to SSR</li>
+                    <li>Setting up a basic Next.js application</li>
+                </ul>
+            </div>
+            <div id="day30" class="material">
+                <h3>Day 30: Static Site Generation (SSG) with Next.js</h3>
+                <ul>
+                    <li>Understanding static site generation</li>
+                    <li>Creating and exporting static pages with Next.js</li>
+                </ul>
+            </div>
+            <div id="day31" class="material">
+                <h3>Day 31: Progressive Web Apps (PWAs)</h3>
+                <ul>
+                    <li>Introduction to PWAs</li>
+                    <li>Converting a React app into a PWA</li>
+                </ul>
+            </div>
+            <div id="day32" class="material">
+                <h3>Day 32: Code Splitting and Lazy Loading</h3>
+                <ul>
+                    <li>Importance of code splitting</li>
+                    <li>Implementing lazy loading with React.lazy and Suspense</li>
+                </ul>
+            </div>
+            <div id="day33" class="material">
+                <h3>Day 33: WebSockets and Real-Time Data</h3>
+                <ul>
+                    <li>Working with WebSockets in React</li>
+                    <li>Implementing real-time features</li>
+                </ul>
+            </div>
+            <div id="day34" class="material">
+                <h3>Day 34: GraphQL with Apollo Client</h3>
+                <ul>
+                    <li>Introduction to GraphQL</li>
+                    <li>Setting up Apollo Client in a React app</li>
+                </ul>
+            </div>
+            <div id="day35" class="material">
+                <h3>Day 35: Final Project Planning</h3>
+                <ul>
+                    <li>Plan a comprehensive final project</li>
+                    <li>Outline requirements and structure</li>
+                </ul>
+            </div>
+            <div id="day36" class="material">
+                <h3>Days 36-42: Build and Deploy the Final Project</h3>
+                <ul>
+                    <li>Spend the remaining days building your final project</li>
+                    <li>Ensure to implement best practices and concepts learned (state management, hooks, routing,
+                        testing, deployment, etc.)</li>
+                    <li>Deploy the project to a platform like Vercel, Netlify, or GitHub Pages</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made by Fazal Hayat Khan, Indian Institute of Technology Kharagpur</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
